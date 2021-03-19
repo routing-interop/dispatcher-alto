@@ -1,4 +1,19 @@
 {
+    "name": "routing-interop/dispatcher-alto",
+    "description": "altorouter/altorouter implementation for routing-interop/dispatcher",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Keven Godet",
+            "email": "hello@keven.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Interop\\Routing\\Alto\\": "src"
+        }
+    },
     "require": {
         "routing-interop/dispatcher": "^0.0.1",
         "altorouter/altorouter": "^2.0"
