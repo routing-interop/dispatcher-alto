@@ -16,6 +16,7 @@
     },
     "require": {
         "routing-interop/dispatcher": "^0.0.1",
-        "altorouter/altorouter": "^2.0"
+        "altorouter/altorouter": "^2.0",
+        "routing-interop/route": "^0.0.5"
     }
 }
